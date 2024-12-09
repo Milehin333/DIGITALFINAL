@@ -244,6 +244,7 @@ void sequence() {
       if (buttonOn[1][currentStep] == HIGH) {
         drum2.noteOn();
       }
+    
       if (buttonOn[2][currentStep] == HIGH) {
         drum3.noteOn();
       }
